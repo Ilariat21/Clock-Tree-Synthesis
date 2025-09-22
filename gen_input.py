@@ -23,7 +23,10 @@ unit_C = 0.5                   # unit capacitance
 max_cap = 10.0                 # max capacitance constraint
 buffer_input_cap = 2.0         # buffer input capacitance
 buffer_fixed_delay = 4.0       # buffer delay
-clk_x, clk_y = 0, 10           # clock input pin location (x, y)
+
+# clock input pin location (x, y)
+clk_x = np.random.randint(low = 1, high=chip_size)
+clk_y = np.random.randint(low = 1, high=chip_size)
 
 filename = f"input_{num_sinks}.txt"
 f = open(filename, 'w')
