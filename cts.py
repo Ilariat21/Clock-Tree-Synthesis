@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
 '''
-Written by Uegoogin (06/13/2025)
+Written by Ilariat21 (06/13/2025)
 
-Usage: python cts20235557.py input_file visualize_output[True/False (default: False)]
-example: python cts20235557.py testcases/input1.txt True
+Usage: python cts.py input_file visualize_output[True/False (default: False)]
+example: python cts.py testcases/input1.txt True
 '''
 
 import sys
