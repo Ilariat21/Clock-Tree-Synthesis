@@ -4,6 +4,7 @@
 '''
 Written by Ilariat21 (06/13/2025)
 
+Use this script to generate input files
 Usage: python gen_input.py <num_sinks>
 example: python gen_input.py 1000
 '''
